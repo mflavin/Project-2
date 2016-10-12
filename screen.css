@@ -10,16 +10,20 @@ html {
   font-size: 1em;
 }
 header {
-  font-size: 1.8em;
+  font-size: 1.3em;
   padding-left: 5%;
 }
 section {
-  font-size: 1.8em;
+  font-size: 1.3em;
   padding-left: 5%;
 }
-h2 {
+li {
   font-size: 1em;
-  padding-bottom: 0.15em;
+  padding-bottom: 0.2em;
+}
+h1, h2 {
+  font-size: 0.9em;
+  padding-bottom: 0.25em;
 }
 ul li {
   font-size: 0.7em;
@@ -44,16 +48,31 @@ h3 {
   padding-left: 3.5%;
 } 
 figure.image {
-  width: 85%;
+  width: 55%;
 }
 figcaption {
-  font-size: 2em;
+  font-size: 1.5em;
   padding-bottom: 0.5em;
 }
 footer {
   font-size: 1em;
   padding-left: 5%;
 }
-@media screen and (min-width: 700px) {
-  
+
+@media screen and (min-width: 550px) {
+  html {
+    font-size: 1.4em;
+  }
+  figure.image {
+  width: 65%;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  html {
+  font-size: 1.8em;
+  }
+  figure.image {
+  width: 75%;
+  }
 }
