@@ -84,6 +84,13 @@ p.int {
 h3 {
   font-size: 1em;
   padding-left: 3.5%;
+} 
+figure.image {
+  width: 85%;
+}
+figcaption {
+  font-size: 2em;
+  padding-bottom: 0.5em;
 }
 footer {
   font-size: 1em;
