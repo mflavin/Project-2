@@ -31,43 +31,7 @@ ul li {
   font-size: 0.7em;
   padding-left: 5%;
 }
-ul.ed {
-  font-size: 1em;
-  list-style-type: square;
-  padding-left: 5%;
-  padding-bottom: 1em;
-}
-ul.skills {
-  font-size: 1em;
-  list-style-type: square;
-  padding-left: 5%;
-  padding-bottom: 1em;
-}
-ul.data {
-  font-size: 1em;
-  list-style-type: square;
-  padding-left: 5%;
-  padding-bottom: 1em;
-}
-ul.h {
-  font-size: 1em;
-  list-style-type: square;
-  padding-left: 5%;
-  padding-bottom: 1em;
-}
-ul.work {
-  font-size: 1em;
-  list-style-type: square;
-  padding-left: 5%;
-  padding-bottom: 1em;
-}
-ul.org {
-  font-size: 1em;
-  list-style-type: square;
-  padding-left: 5%;
-  padding-bottom: 1em;
-}
-ul.vol {
+ul.list {
   font-size: 1em;
   list-style-type: square;
   padding-left: 5%;
@@ -95,4 +59,7 @@ figcaption {
 footer {
   font-size: 1em;
   padding-left: 5%;
+}
+@media screen and (min-width: 700px) {
+  
 }
