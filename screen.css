@@ -75,7 +75,15 @@ ul.vol {
 }
 p {
   font-size: 0.7em;
-  padding-left: 1em;
+  padding-left: 3.5%;
+  padding-bottom: 1em;
+}
+p.int {
+  padding-left:5%;
+}
+h3 {
+  font-size: 1em;
+  padding-left: 3.5%;
 }
 footer {
   font-size: 1em;
