@@ -8,6 +8,7 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 /* stylelint-enable */
 html {
   font-size: 1em;
+  background-color: lightblue;
 }
 header {
   font-size: 1.3em;
@@ -48,7 +49,7 @@ h3 {
   padding-left: 3.5%;
 } 
 figure.image {
-  width: 55%;
+  width: 50%;
 }
 figcaption {
   font-size: 1.5em;
@@ -64,7 +65,7 @@ footer {
     font-size: 1.4em;
   }
   figure.image {
-  width: 65%;
+  width: 50%;
   }
 }
 
@@ -73,6 +74,6 @@ footer {
   font-size: 1.8em;
   }
   figure.image {
-  width: 75%;
+  width: 65%;
   }
 }
