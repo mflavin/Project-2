@@ -9,6 +9,8 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 html {
   font-size: 1em;
   background-color: lightblue;
+  padding-left: 1em;
+  padding-right: 5em;
 }
 header {
   font-size: 1.3em;
@@ -67,6 +69,7 @@ footer {
   figure.image {
   width: 50%;
   }
+  
 }
 
 @media screen and (min-width: 1000px) {
