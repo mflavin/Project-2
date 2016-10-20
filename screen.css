@@ -10,7 +10,7 @@ html {
   font-size: 1em;
   background-color: #9999ff;
   padding-left: 1em;
-  padding-right: 3em;
+  padding-right: 1em;
 }
 header {
   font-size: 1.3em;
@@ -28,15 +28,24 @@ li {
   font-size: 1em;
   padding-bottom: 0.2em;
 }
-h1, h2 {
-  font-size: 0.9em;
+h2.topic, h2.me {
+  font-size: 1.2em;
   padding-bottom: 0.25em;
+  text-align: center;
+}
+h2.topic {
+  padding-left: .6em;
 }
 h1.head, ul.link {
   text-align: center;
 }
+h2.info {
+  font-size: 1em;
+  padding-bottom: 0.25em;
+  text-align: center;
+}
 ul.link:last-child {
-  padding-bottom: 2em;
+  padding-bottom: 1em;
 }
 ul li {
   font-size: 0.7em;
@@ -55,13 +64,18 @@ p {
 }
 p.int {
   padding-left: 2em;
+  padding-right: 2em;
 }
 h3 {
-  font-size: 1em;
+  font-size: .8em;
   padding-left: 1em;
+  padding-bottom: 0.25em;
+  text-align: center;
 } 
 figure.image {
   width: 50%;
+  margin-left: auto;
+  margin-right: auto;
 }
 figcaption {
   font-size: 1.5em;
