@@ -8,17 +8,21 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 /* stylelint-enable */
 html {
   font-size: 1em;
-  background-color: lightblue;
+  background-color: #9999ff;
   padding-left: 1em;
-  padding-right: 5em;
+  padding-right: 3em;
 }
 header {
   font-size: 1.3em;
-  padding-left: 5%;
+  padding-left: 2em;
+  padding-right: 3em;
+  margin-left: -1em;
+  margin-right: -3em;
 }
 section {
   font-size: 1.3em;
-  padding-left: 5%;
+  padding-left: 1em;
+  background-color: #b3b3ff;
 }
 li {
   font-size: 1em;
@@ -28,27 +32,33 @@ h1, h2 {
   font-size: 0.9em;
   padding-bottom: 0.25em;
 }
+h1.head, ul.link {
+  text-align: center;
+}
+ul.link:last-child {
+  padding-bottom: 2em;
+}
 ul li {
   font-size: 0.7em;
-  padding-left: 5%;
+  padding-left: 1em;
 }
 ul.list {
   font-size: 1em;
   list-style-type: square;
-  padding-left: 5%;
+  padding-left: 2em;
   padding-bottom: 1em;
 }
 p {
   font-size: 0.7em;
-  padding-left: 3.5%;
+  padding-left: 2em;
   padding-bottom: 1em;
 }
 p.int {
-  padding-left:5%;
+  padding-left: 2em;
 }
 h3 {
   font-size: 1em;
-  padding-left: 3.5%;
+  padding-left: 1em;
 } 
 figure.image {
   width: 50%;
@@ -59,7 +69,7 @@ figcaption {
 }
 footer {
   font-size: 1em;
-  padding-left: 5%;
+  padding-left: 1em;
 }
 
 @media screen and (min-width: 550px) {
@@ -67,16 +77,15 @@ footer {
     font-size: 1.4em;
   }
   figure.image {
-  width: 50%;
+    width: 50%;
   }
-  
 }
 
 @media screen and (min-width: 1000px) {
   html {
-  font-size: 1.8em;
+    font-size: 1.8em;
   }
   figure.image {
-  width: 65%;
+    width: 65%;
   }
 }
