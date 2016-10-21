@@ -9,11 +9,9 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 
 /* General */
 html {
-  font-size: 1em;
   background-color: #9999ff;
 }
 section {
-  font-size: 1.3em;
   background-color: #b3b3ff;
 }
 h1.head, ul.link {
@@ -26,24 +24,24 @@ ul.link:last-child {
 }
 footer {
   font-size: 1em;
-  padding-left: 1em;
+  text-align: center;
 }
 
 /* Resume Page */
 h2.info {
-  font-size: 1.3em;
+  font-size: 1.4em;
   padding-bottom: 0.25em;
   text-align: center;
 }
 li.sub {
+  font-size: .85em;
   text-align: center;
+  padding-left: 1em;
 }
 ul.list {
-  font-size: 0.7em;
+  font-size: 0.8em;
   list-style-type: square;
-  padding-left: 2em;
   padding-bottom: 1em;
-  
 }
 
 /* About Me Page */
@@ -83,18 +81,13 @@ figcaption {
 }
 
 @media screen and (min-width: 550px) {
-  html {
-    font-size: 1.4em;
-  }
+  
   figure.image {
     width: 50%;
   }
 }
 
 @media screen and (min-width: 1000px) {
-  html {
-    font-size: 1.8em;
-  }
   figure.image {
     width: 65%;
   }
