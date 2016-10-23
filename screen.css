@@ -39,7 +39,7 @@ li.sub {
   padding-left: 1em;
 }
 ul.list {
-  font-size: 0.8em;
+  font-size: 0.9em;
   list-style-type: square;
   padding-bottom: 1em;
 }
@@ -104,6 +104,11 @@ figcaption {
     font-size: 1.2em;
     text-align: center;
     padding-left: 1em;
+  }
+  ul.list {
+    font-size: 0.8em;
+    list-style-type: square;
+    padding-bottom: 1em;
   }
 
   /* About Me Page */
