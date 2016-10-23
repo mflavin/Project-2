@@ -47,7 +47,7 @@ ul.list {
 /* About Me Page */
 h2.topic, h2.me {
   font-size: 1.4em;
-  padding-bottom: 0.25em;
+  padding-bottom: 0.5em;
   padding-left: 0.6em;
   text-align: center;
   text-decoration: underline;
@@ -56,7 +56,7 @@ h2.topic, h2.me {
 h3 {
   font-size: 1.25em;
   padding-left: 1em;
-  padding-bottom: 0.25em;
+  padding-bottom: 0.5em;
   text-align: center;
   text-decoration: underline;
 } 
@@ -113,7 +113,7 @@ figcaption {
   /* About Me Page */
   h2.topic, h2.me {
     font-size: 1.6em;
-    padding-bottom: 0.5em;
+    padding-bottom: 0.75em;
     padding-left: 0.6em;
     text-align: center;
     text-decoration: underline;
@@ -121,7 +121,8 @@ figcaption {
   }
   h3 {
     font-size: 1.45em;
-    padding-bottom: 0.5em;
+    padding-top: 0.2em;
+    padding-bottom: 0.75em;
     text-align: center;
     text-decoration: underline;
   } 
@@ -163,7 +164,7 @@ figcaption {
   /* About Me Page */
   h2.topic, h2.me {
     font-size: 1.8em;
-    padding-bottom: 0.75em;
+    padding-bottom: 1em;
     padding-left: 0.6em;
     text-align: center;
     text-decoration: underline;
@@ -171,7 +172,8 @@ figcaption {
   }
   h3 {
     font-size: 1.65em;
-    padding-bottom: 0.75em;
+    padding-top: 0.3em;
+    padding-bottom: 1em;
     text-align: center;
     text-decoration: underline;
   } 
