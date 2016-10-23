@@ -54,7 +54,7 @@ h2.topic, h2.me {
   font-weight: bold;
 }
 h3 {
-  font-size: 1.15em;
+  font-size: 1.25em;
   padding-left: 1em;
   padding-bottom: 0.25em;
   text-align: center;
@@ -65,6 +65,7 @@ p.int {
   padding-left: 2em;
   padding-right: 2em;
   padding-bottom: 1em;
+  line-height: 1.2em;
 }
 
 /* Media Page */
@@ -128,6 +129,7 @@ figcaption {
     font-size: 1.25em;
     padding-left: 3.5em;
     padding-right: 3.5em;
+    line-height: 1.1em;
   }
   
   /* Media Page */
@@ -177,5 +179,6 @@ figcaption {
     font-size: 1.5em;
     padding-left: 5em;
     padding-right: 5em;
+    line-height: 1em;
   }
 }
