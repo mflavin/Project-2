@@ -72,6 +72,11 @@ p.int {
 figure.image {
   width: 50%;
   margin-left: auto;
+  margin-right: auto; 
+}
+figure.video {
+  width: 35%;
+  margin-left: auto;
   margin-right: auto;
 }
 figcaption {
