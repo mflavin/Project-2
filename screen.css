@@ -103,18 +103,16 @@ figcaption {
   li.sub {
     font-size: 1.2em;
     text-align: center;
-    padding-left: 1em;
   }
   ul.list {
     font-size: 0.8em;
     list-style-type: square;
-    padding-bottom: 1em;
   }
 
   /* About Me Page */
   h2.topic, h2.me {
     font-size: 1.6em;
-    padding-bottom: 0.25em;
+    padding-bottom: 0.5em;
     padding-left: 0.6em;
     text-align: center;
     text-decoration: underline;
@@ -122,16 +120,14 @@ figcaption {
   }
   h3 {
     font-size: 1.45em;
-    padding-left: 1em;
-    padding-bottom: 0.25em;
+    padding-bottom: 0.5em;
     text-align: center;
     text-decoration: underline;
   } 
   p.int {
     font-size: 1.25em;
-    padding-left: 2em;
-    padding-right: 2em;
-    padding-bottom: 1em;
+    padding-left: 3.5em;
+    padding-right: 3.5em;
   }
   
   /* Media Page */
@@ -142,7 +138,6 @@ figcaption {
   }
   figcaption {
     text-align:center;
-    padding-bottom: 1em;
     font-size: 1.3em;
   } 
 }
@@ -161,5 +156,26 @@ figcaption {
   footer {
     font-size: 1.5em;
     text-align: center;
+  }
+  
+  /* About Me Page */
+  h2.topic, h2.me {
+    font-size: 1.8em;
+    padding-bottom: 0.75em;
+    padding-left: 0.6em;
+    text-align: center;
+    text-decoration: underline;
+    font-weight: bold;
+  }
+  h3 {
+    font-size: 1.65em;
+    padding-bottom: 0.75em;
+    text-align: center;
+    text-decoration: underline;
+  } 
+  p.int {
+    font-size: 1.5em;
+    padding-left: 5em;
+    padding-right: 5em;
   }
 }
