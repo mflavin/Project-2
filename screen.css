@@ -134,7 +134,7 @@ figcaption {
   }
   
   /* Media Page */
-  figure.image {
+  figure.image, figure.image2 {
     width: 65%;
     margin-left: auto;
     margin-right: auto;
@@ -185,7 +185,7 @@ figcaption {
   }
   
   /* Media Page */
-  figure.image {
+  figure.image, figure.image2 {
     width: 80%;
     margin-left: auto;
     margin-right: auto;
