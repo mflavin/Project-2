@@ -21,7 +21,7 @@ h1.head, ul.link {
   line-height: 1.5em;
 }
 a:visited {
-  color: blue;
+  color: #6666ff;
 }
 ul.link, a:link {
   text-decoration: none; 
@@ -31,7 +31,7 @@ ul.link, a:link {
   padding-left: 25%;
   padding-right: 25%;
   padding-bottom: 0.2em;
-  background-color: pink;
+  background-color: #ccccff;
 }
 ul.link:last-child {
   padding-bottom: 0.5em;
