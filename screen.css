@@ -182,6 +182,24 @@ figcaption {
     text-align: center;
   }
   
+  /* Resume Page */
+  h2.info {
+    font-size: 1.8em;
+    padding-bottom: 0.25em;
+    text-align: center;
+    background-color:grey;
+    margin-left: 5em;
+    margin-right: 5em;
+  }
+  li.sub {
+    font-size: 1.5em;
+    text-align: center;
+  }
+  ul.list {
+    font-size: 0.8em;
+    list-style-type: square;
+  }
+  
   /* About Me Page */
   h2.topic, h2.me {
     font-size: 1.8em;
