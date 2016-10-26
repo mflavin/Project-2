@@ -43,6 +43,7 @@ ul.link, a:link {
   background-color: #ccccff;
 }
 ul.link:last-child {
+  padding-bottom: 0.5em;
   background-color: #9999ff;
 }
 footer {
@@ -111,13 +112,20 @@ figcaption {
 @media screen and (min-width: 550px) {
   
   /* General */
+  article {
+    padding-top: 1.5em;
+    padding-bottom: 0.1em;
+  }
+  section {
+    margin-left: 1.5em;
+    margin-right: 1.5em;
+    margin-bottom: 1.5em;
+    padding-top: 1.5em;
+  }
   h1.head, ul.link {
     text-align: center;
     padding-bottom: 0.2em;
     font-size: 1.8em;
-  }
-  ul.link:last-child {
-    padding-bottom: 0.5em;
   }
   footer {
     font-size: 1.2em;
@@ -178,13 +186,20 @@ figcaption {
 @media screen and (min-width: 875px) {
   
   /* General */
+  article {
+    padding-top: 2em;
+    padding-bottom: 0.1em;
+  }
+  section {
+    margin-left: 2em;
+    margin-right: 2em;
+    margin-bottom: 2em;
+    padding-top: 2em;
+  }
   h1.head, ul.link {
     text-align: center;
     padding-bottom: 0.2em;
     font-size: 2.2em;
-  }
-  ul.link:last-child {
-    padding-bottom: 0.5em;
   }
   footer {
     font-size: 1.5em;
