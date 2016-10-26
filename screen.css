@@ -29,6 +29,11 @@ h1.head, ul.link {
   font-size: 1.5em;
   line-height: 1.5em;
 }
+h1.head {
+  margin: 0.5em 4em;
+  background-color: black;
+  color: white;
+}
 a:visited {
   color: #39ac73;
 }
@@ -46,8 +51,8 @@ ul.link, a:link {
   background-color: #ccccff;
 }
 ul.link li {
-  padding: .15em;
-  margin: .15em;
+  padding: 0.15em;
+  margin: 0.15em;
   background-color: #4d4dff;
 }
 ul.link:last-child {
@@ -99,7 +104,7 @@ h3 {
   color: #262626;
 } 
 p.int {
-  font-size: .9em;
+  font-size: 0.9em;
   padding-left: 2em;
   padding-right: 2em;
   padding-bottom: 1em;
@@ -138,6 +143,10 @@ figcaption {
     text-align: center;
     padding-bottom: 0.2em;
     font-size: 1.8em;
+  }
+  h1.head {
+    margin-left: 5.5em;
+    margin-right: 5.5em;
   }
   footer {
     font-size: 1.2em;
@@ -212,6 +221,10 @@ figcaption {
     text-align: center;
     padding-bottom: 0.2em;
     font-size: 2.2em;
+  }
+  h1.head {
+    margin-left: 7em;
+    margin-right: 7em;
   }
   footer {
     font-size: 1.5em;
