@@ -44,7 +44,7 @@ footer {
 
 /* Resume Page */
 h2.info {
-  font-size: 1.3em;
+  font-size: 1.4em;
   padding-bottom: 0.25em;
   text-align: center;
   background-color:grey;
@@ -52,12 +52,12 @@ h2.info {
   margin-right: 2em;
 }
 li.sub {
-  font-size: .85em;
+  font-size: 1em;
   text-align: center;
   padding-left: 1em;
 }
 ul.list {
-  font-size: 0.9em;
+  font-size: 0.8em;
   list-style-type: square;
   padding-bottom: 1em;
   color: #333333;
@@ -118,7 +118,7 @@ figcaption {
 
   /* Resume Page */
   h2.info {
-    font-size: 1.65em;
+    font-size: 1.6em;
     padding-bottom: 0.25em;
     text-align: center;
     background-color:grey;
