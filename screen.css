@@ -11,7 +11,16 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 html {
   background-color: #9999ff;
 }
+article {
+  padding-top: 1em;
+  padding-bottom: 0.1em;
+  background-color: grey;
+}
 section {
+  margin-left: 1em;
+  margin-right: 1em;
+  margin-bottom: 1em;
+  padding-top: 1em;
   background-color: #b3b3ff;
 }
 h1.head, ul.link {
@@ -34,7 +43,6 @@ ul.link, a:link {
   background-color: #ccccff;
 }
 ul.link:last-child {
-  padding-bottom: 0.5em;
   background-color: #9999ff;
 }
 footer {
