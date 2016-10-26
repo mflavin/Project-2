@@ -161,14 +161,9 @@ figcaption {
   }
   
   /* Media Page */
-  figure.image, figure.image2 {
-    width: 65%;
-    margin-left: auto;
-    margin-right: auto;
-  }
   figcaption {
     text-align: center;
-    font-size: 1.3em;
+    font-size: 1.35em;
   } 
 }
 
@@ -233,15 +228,8 @@ figcaption {
   }
   
   /* Media Page */
-  figure.image {
-    width: 75%;
-    margin-left: auto;
-    margin-right: auto;
-  }
-  figure.image2 {
-    width: 60%;
-    margin-left: auto;
-    margin-right: auto;
+  figure.video {
+    width: 40%;
   }
   figcaption {
     text-align: center;
