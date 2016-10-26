@@ -25,9 +25,9 @@ section {
 }
 h1.head, ul.link {
   text-align: center;
-  padding-bottom: 0.2em;
-  font-size: 1.5em;
-  line-height: 1.5em;
+  padding-bottom: 0.2em;  /* 4.8px @ 24px/em */
+  font-size: 1.5em;   /* 24px @ 16px/em */
+  line-height: 1.5em;   /* 36px @ 24px/em */
 }
 h1.head {
   margin: 0.5em 4em;
@@ -60,55 +60,55 @@ ul.link:last-child {
   background-color: #9999ff;
 }
 footer {
-  font-size: 1em;
+  font-size: 1em;   /* 16px @ 16px/em */
   text-align: center;
 }
 
 /* Resume Page */
 h2.info {
-  font-size: 1.4em;
-  padding-bottom: 0.25em;
+  font-size: 1.4em;   /* 22.4px @ 16px/em */
+  padding-bottom: 0.25em;   /* 5.6px @ 22.4px/em */
   text-align: center;
   background-color:grey;
   margin-left: 2em;
   margin-right: 2em;
 }
 li.sub {
-  font-size: 1em;
+  font-size: 1em;   /* 16px @ 16px/em */
   text-align: center;
   padding-left: 1em;
 }
 ul.list {
-  font-size: 0.8em;
+  font-size: 0.8em;   /* 12.8px @ 16px/em */
   list-style-type: square;
-  padding-bottom: 1em;
+  padding-bottom: 1em;    /* 12.8px @ 12.8px/em */
   color: #333333;
 }
 
 /* About Me Page */
 h2.topic, h2.me {
-  font-size: 1.4em;
-  padding-bottom: 0.5em;
-  padding-left: 0.6em;
+  font-size: 1.4em;   /* 22.4px @ 16px/em */
+  padding-bottom: 0.5em;    /* 11.2px @ 22.4px/em */
+  padding-left: 0.6em;    /* 13.44px @ 22.4px/em */
   text-align: center;
   text-decoration: underline;
   font-weight: bold;
 }
 h3 {
-  font-size: 1.25em;
-  padding-left: 1em;
-  padding-bottom: 0.5em;
+  font-size: 1.25em;    /* 20px @ 16px/em */
+  padding-left: 1em;    /* 20px @ 20px/em */
+  padding-bottom: 0.5em;    /* 10px @ 20px/em */
   text-align: center;
   text-decoration: none;
   font-weight: bold;
   color: #262626;
 } 
 p.int {
-  font-size: 0.9em;
-  padding-left: 2em;
+  font-size: 1em;   /* 14.4px @ 16px/em */
+  padding-left: 2em;    /* 28.8px @ 14.4px/em */
   padding-right: 2em;
   padding-bottom: 1em;
-  line-height: 1.3em;
+  line-height: 1.3em;   /* 18.72 @ 14.4px/em */
 }
 
 /* Media Page */
@@ -141,66 +141,66 @@ figcaption {
   }
   h1.head, ul.link {
     text-align: center;
-    padding-bottom: 0.2em;
-    font-size: 1.8em;
+    padding-bottom: 0.2em;  /* 5.76px @ 28.8px/em */
+    font-size: 1.8em;   /* 28.8px @ 16px/em */
   }
   h1.head {
     margin-left: 5.5em;
     margin-right: 5.5em;
   }
   footer {
-    font-size: 1.2em;
+    font-size: 1.2em;   /* 19.2px @ 16px/em */
     text-align: center;
   }
 
   /* Resume Page */
   h2.info {
-    font-size: 1.6em;
-    padding-bottom: 0.25em;
+    font-size: 1.6em;   /* 25.6px @ 16px/em */
+    padding-bottom: 0.25em;   /* 6.4px @ 25.6px/em */
     text-align: center;
     background-color:grey;
     margin-left: 5em;
     margin-right: 5em;
   }
   li.sub {
-    font-size: 1.2em;
+    font-size: 1.2em;   /* 19.2px @ 16px/em */
     text-align: center;
   }
   ul.list {
-    font-size: 0.8em;
+    font-size: 0.8em;   /* 15.36px @ 19.2px/em */
     list-style-type: square;
     color: #333333;
   }
 
   /* About Me Page */
   h2.topic, h2.me {
-    font-size: 1.6em;
-    padding-bottom: 0.75em;
-    padding-left: 0.6em;
+    font-size: 1.6em;   /* 25.6px @ 16px/em */
+    padding-bottom: 0.75em;   /* 19.2px @ 25.6px/em */
+    padding-left: 0.6em;    /* 15.36px @ 25.6px/em */
     text-align: center;
     text-decoration: underline;
     font-weight: bold;
   }
   h3 {
-    font-size: 1.45em;
-    padding-top: 0.2em;
-    padding-bottom: 0.75em;
+    font-size: 1.45em;    /* 23.2px @ 16px/em */
+    padding-top: 0.2em;   /* 4.64 @ 23.2px/em */
+    padding-bottom: 0.75em;   /* 17.4px @ 23.2px/em */
     text-align: center;
     text-decoration: none;
     font-weight: bold;
     color: #262626;
   } 
   p.int {
-    font-size: 1.25em;
-    padding-left: 3.5em;
+    font-size: 1.25em;    /* 20px @ 16px/em */
+    padding-left: 3.5em;  /* 70px @ 20px/em */
     padding-right: 3.5em;
-    line-height: 1.4em;
+    line-height: 1.4em;   /* 28px @ 20px/em */
   }
   
   /* Media Page */
   figcaption {
     text-align: center;
-    font-size: 1.35em;
+    font-size: 1.35em;    /* 21.6 @ 16px/em */
   } 
 }
 
@@ -220,48 +220,48 @@ figcaption {
   h1.head, ul.link {
     text-align: center;
     padding-bottom: 0.2em;
-    font-size: 2.2em;
+    font-size: 2.2em;   /* 35.2px @ 16px/em */
   }
   h1.head {
     margin-left: 7em;
     margin-right: 7em;
   }
   footer {
-    font-size: 1.5em;
+    font-size: 1.5em;   /* 24px @ 16px/em */
     text-align: center;
   }
   
   /* Resume Page */
   h2.info {
-    font-size: 1.8em;
-    padding-bottom: 0.25em;
+    font-size: 1.8em;   /* 28.8px @ 16px/em */
+    padding-bottom: 0.25em; /* 7.2px @ 28.8px/em */
     text-align: center;
     background-color:grey;
     margin-left: 7em;
     margin-right: 7em;
   }
   li.sub {
-    font-size: 1.5em;
+    font-size: 1.5em;   /* 24px @ 16px/em */
     text-align: center;
   }
   ul.list {
-    font-size: 0.8em;
+    font-size: 0.8em;   /* 19.2px @ 24px/em */
     list-style-type: square;
     color: #333333;
   }
   
   /* About Me Page */
   h2.topic, h2.me {
-    font-size: 1.8em;
+    font-size: 1.8em;   /* 28.8px @ 16px/em */
     padding-bottom: 1em;
-    padding-left: 0.6em;
+    padding-left: 0.6em;  /* 17.28px @ 28.8px/em */
     text-align: center;
     text-decoration: underline;
     font-weight: bold;
   }
   h3 {
-    font-size: 1.65em;
-    padding-top: 0.3em;
+    font-size: 1.65em;    /* 26.4px @ 16px/em */
+    padding-top: 0.3em;   /* 7.92px @ 26.4px/em */
     padding-bottom: 1em;
     text-align: center;
     text-decoration: none;
@@ -269,10 +269,10 @@ figcaption {
     color: #262626;
   } 
   p.int {
-    font-size: 1.5em;
-    padding-left: 5em;
+    font-size: 1.5em;   /* 24px @ 16px/em */
+    padding-left: 5em;  /* 120px @ 24px/em */
     padding-right: 5em;
-    line-height: 1.5em;
+    line-height: 1.5em;   /* 36px @ 24px/em */
   }
   
   /* Media Page */
@@ -281,6 +281,6 @@ figcaption {
   }
   figcaption {
     text-align: center;
-    font-size: 1.7em;
+    font-size: 1.7em;   /* 27.2px @ 16px/em */
   } 
 }
