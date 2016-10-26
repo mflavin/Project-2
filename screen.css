@@ -104,12 +104,12 @@ figcaption {
   
   /* General */
   h1.head, ul.link {
-  text-align: center;
-  padding-bottom: 0.2em;
-  font-size: 1.8em;
+    text-align: center;
+    padding-bottom: 0.2em;
+    font-size: 1.8em;
   }
   ul.link:last-child {
-  padding-bottom: 0.5em;
+    padding-bottom: 0.5em;
   }
   footer {
     font-size: 1.2em;
