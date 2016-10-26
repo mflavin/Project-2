@@ -60,6 +60,7 @@ ul.list {
   font-size: 0.9em;
   list-style-type: square;
   padding-bottom: 1em;
+  color: #333333;
 }
 
 /* About Me Page */
@@ -131,6 +132,7 @@ figcaption {
   ul.list {
     font-size: 0.8em;
     list-style-type: square;
+    color: #333333;
   }
 
   /* About Me Page */
