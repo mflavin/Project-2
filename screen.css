@@ -214,7 +214,9 @@ figcaption {
     padding-top: 0.3em;
     padding-bottom: 1em;
     text-align: center;
-    text-decoration: underline;
+    text-decoration: none;
+    font-weight: bold;
+    color: #262626;
   } 
   p.int {
     font-size: 1.5em;
