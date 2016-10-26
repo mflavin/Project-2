@@ -76,14 +76,16 @@ h3 {
   padding-left: 1em;
   padding-bottom: 0.5em;
   text-align: center;
-  text-decoration: underline;
+  text-decoration: none;
+  font-weight: bold;
+  color: #262626;
 } 
 p.int {
   font-size: .9em;
   padding-left: 2em;
   padding-right: 2em;
   padding-bottom: 1em;
-  line-height: 1.2em;
+  line-height: 1.3em;
 }
 
 /* Media Page */
@@ -145,13 +147,15 @@ figcaption {
     padding-top: 0.2em;
     padding-bottom: 0.75em;
     text-align: center;
-    text-decoration: underline;
+    text-decoration: none;
+    font-weight: bold;
+    color: #262626;
   } 
   p.int {
     font-size: 1.25em;
     padding-left: 3.5em;
     padding-right: 3.5em;
-    line-height: 1.1em;
+    line-height: 1.4em;
   }
   
   /* Media Page */
@@ -222,7 +226,7 @@ figcaption {
     font-size: 1.5em;
     padding-left: 5em;
     padding-right: 5em;
-    line-height: 1em;
+    line-height: 1.5em;
   }
   
   /* Media Page */
