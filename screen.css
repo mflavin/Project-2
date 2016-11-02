@@ -149,7 +149,6 @@ figcaption {
   }
   footer {
     font-size: 1.2em;   /* 19.2px @ 16px/em */
-    text-align: center;
   }
 
   /* Resume Page */
@@ -184,7 +183,6 @@ figcaption {
   
   /* Media Page */
   figcaption {
-    text-align: center;
     font-size: 1.35em;    /* 21.6 @ 16px/em */
   } 
 }
@@ -213,7 +211,6 @@ figcaption {
   }
   footer {
     font-size: 1.5em;   /* 24px @ 16px/em */
-    text-align: center;
   }
   
   /* Resume Page */
@@ -251,7 +248,6 @@ figcaption {
     width: 40%;
   }
   figcaption {
-    text-align: center;
     font-size: 1.7em;   /* 27.2px @ 16px/em */
   } 
 }
