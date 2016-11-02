@@ -66,22 +66,22 @@ footer {
 
 /* Resume Page */
 h2.info {
-  font-size: 1.4em;   /* 22.4px @ 16px/em */
-  padding-bottom: 0.25em;   /* 5.6px @ 22.4px/em */
+  font-size: 1.563em;   /* 25px @ 16px/em */
+  padding-bottom: 0.25em;   /* 6.25px @ 25px/em */
   text-align: center;
   background-color:grey;
   margin-left: 2em;
   margin-right: 2em;
 }
 li.sub {
-  font-size: 1em;   /* 16px @ 16px/em */
+  font-size: 1.25em;   /* 20px @ 16px/em */
   text-align: center;
   padding-left: 1em;
 }
 ul.list {
-  font-size: 0.8em;   /* 12.8px @ 16px/em */
+  font-size: 0.8em;   /* 16px @ 20px/em */
   list-style-type: square;
-  padding-bottom: 1em;    /* 12.8px @ 12.8px/em */
+  padding-bottom: 1em;    /* 20px @ 20/em */
   color: #333333;
 }
 
@@ -155,19 +155,19 @@ figcaption {
 
   /* Resume Page */
   h2.info {
-    font-size: 1.6em;   /* 25.6px @ 16px/em */
-    padding-bottom: 0.25em;   /* 6.4px @ 25.6px/em */
+    font-size: 1.953em;   /* 31.25px @ 16px/em */
+    padding-bottom: 0.25em;   /* 7.81px @ 31.25px/em */
     text-align: center;
     background-color:grey;
     margin-left: 5em;
     margin-right: 5em;
   }
   li.sub {
-    font-size: 1.2em;   /* 19.2px @ 16px/em */
+    font-size: 1.563em;   /* 25px @ 16px/em */
     text-align: center;
   }
   ul.list {
-    font-size: 0.8em;   /* 15.36px @ 19.2px/em */
+    font-size: 0.8em;   /* 20px @ 25px/em */
     list-style-type: square;
     color: #333333;
   }
@@ -233,19 +233,19 @@ figcaption {
   
   /* Resume Page */
   h2.info {
-    font-size: 1.8em;   /* 28.8px @ 16px/em */
-    padding-bottom: 0.25em; /* 7.2px @ 28.8px/em */
+    font-size: 2.441em;   /* 39.06px @ 16px/em */
+    padding-bottom: 0.25em; /* 9.764px @ 39.06px/em */
     text-align: center;
     background-color:grey;
     margin-left: 7em;
     margin-right: 7em;
   }
   li.sub {
-    font-size: 1.5em;   /* 24px @ 16px/em */
+    font-size: 1.953em;   /* 31.25px @ 16px/em */
     text-align: center;
   }
   ul.list {
-    font-size: 0.8em;   /* 19.2px @ 24px/em */
+    font-size: 0.8em;   /* 25px @ 31.25px/em */
     list-style-type: square;
     color: #333333;
   }
