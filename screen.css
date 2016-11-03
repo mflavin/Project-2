@@ -160,7 +160,7 @@ figcaption {
   }
   li.sub {
     font-size: 1.563em;   /* 25px @ 16px/em */
-    padding-top: 0.5em;
+    padding-top: 2.27%;   /* 2.27% = 12.5px/550px */
     line-height: 1.25em;  /* 31.25em @ 25px */
   }
   ul.list {
@@ -171,18 +171,18 @@ figcaption {
   /* About Me Page */
   h2.topic, h2.me {
     font-size: 1.6em;   /* 25.6px @ 16px/em */
-    padding-bottom: 0.75em;   /* 19.2px @ 25.6px/em */
+    padding-bottom: 3.49%;   /* 3.49% = 19.2px/550px */
     line-height: 1.4em;   /* 35.84px @ 25.6px/em */
   }
   h3 {
     font-size: 1.45em;    /* 23.2px @ 16px/em */
-    padding-top: 0.2em;   /* 4.64 @ 23.2px/em */
-    padding-bottom: 0.75em;   /* 17.4px @ 23.2px/em */
+    padding-top: 0.8436%;   /* 0.8436% = 4.64px/550px */
+    padding-bottom: 3.16%;   /* 3.16% = 17.4px/550px */
   } 
   p.int {
     font-size: 1.25em;    /* 20px @ 16px/em */
-    padding-left: 3.5em;  /* 70px @ 20px/em */
-    padding-right: 3.5em;
+    padding-left: 13.5%;  
+    padding-right: 13.5%;
     line-height: 1.4em;   /* 28px @ 20px/em */
   }
   
