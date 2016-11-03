@@ -59,7 +59,7 @@ ul.link:last-child {
 footer {
   font-size: 1em;   /* 16px @ 16px/em */
   text-align: center;
-  line-height: 1.5em;
+  line-height: 1.5em; /* 24px = 16px/em */
 }
 
 /* Resume Page */
@@ -69,21 +69,21 @@ h2.info {
   text-align: center;
   background-color:grey;
   margin:0 17%;
-  line-height: 1.3em;
+  line-height: 1.3em;   /* 32.5px @ 25px/em */
 }
 li.sub {
   font-size: 1.25em;   /* 20px @ 16px/em */
   text-align: center;
   padding-left: 6.25%;  /* 6.25% = 20px/320px */
-  line-height: 0.9em;
-  padding-top: 0.25em;
+  line-height: 0.9em;   /* 18px @ 20px/em */
+  padding-top: 0.25em;  /* 5px @ 20px/em */
 }
 ul.list {
   font-size: 0.8em;   /* 16px @ 20px/em */
   list-style-type: square;
   padding-bottom: 5%;   /* 5% = 16px/320px */
   color: #333333;
-  line-height: 1.2em;
+  line-height: 1.2em; /* 19.2px @ 16px/em */
 }
 
 /* About Me Page */
@@ -94,7 +94,7 @@ h2.topic, h2.me {
   text-align: center;
   text-decoration: underline;
   font-weight: bold;
-  line-height: 1.2em;
+  line-height: 1.2em;  /* 26.88px @ 22.4px/em */
 }
 h3 {
   font-size: 1.25em;    /* 20px @ 16px/em */
@@ -196,11 +196,11 @@ figcaption {
   
   /* General */
   article {
-    padding-top: 3.63%;
+    padding-top: 3.63%; /* 3.63% = 31.7625px/875px */
     padding-bottom: 0.1em;
   }
   section {
-    margin-left: 3.63%;
+    margin-left: 3.63%; /* 3.63% = 31.7625px/875px */
     margin-right: 3.63%;
     margin-bottom: 3.63%;
     padding-top: 3.63%;
@@ -209,46 +209,46 @@ figcaption {
     font-size: 2.2em;   /* 35.2px @ 16px/em */
   }
   h1.head {
-    margin-left: 7em;
-    margin-right: 7em;
+    margin-left: 25%;
+    margin-right: 25%;
   }
   footer {
     font-size: 1.5em;   /* 24px @ 16px/em */
-    line-height: 2em;
+    line-height: 2em;   /* 48px @ 24px/em */
   }
   
   /* Resume Page */
   h2.info {
     font-size: 2.441em;   /* 39.06px @ 16px/em */
-    margin-left: 7em;
-    margin-right: 7em;
-    line-height: 1.7em;
+    margin-left: 33.5;
+    margin-right: 33.5%;
+    line-height: 1.7em;   /* 66.402px = 39.06px/em */
   }
   li.sub {
     font-size: 1.953em;   /* 31.25px @ 16px/em */
-    padding-top: 0.75em;
-    line-height: 1.4em;
+    padding-top: 2.68%;  /* 23.4375px @ 31.25px/em */
+    line-height: 1.4em;   /* 43.75px = 31.25px/em */
   }
   ul.list {
     font-size: 0.8em;   /* 25px @ 31.25px/em */
-    line-height: 1.6em;
+    line-height: 1.6em; /* 40px = 25px/em */ 
   }
   
   /* About Me Page */
   h2.topic, h2.me {
     font-size: 1.8em;   /* 28.8px @ 16px/em */
-    padding-bottom: 1em;
-    line-height: 1.6em;
+    padding-bottom: 3.29%;  /* 3.29% = 28.8px/875px */  
+    line-height: 1.6em;   /* 46.08px = 28.8px/em */   
   }
   h3 {
     font-size: 1.65em;    /* 26.4px @ 16px/em */
-    padding-top: 0.3em;   /* 7.92px @ 26.4px/em */
-    padding-bottom: 1em;
+    padding-top: 0.9%;   /* 0,9% = 7.92px/875px */
+    padding-bottom: 3.017%;  /* 3.017% = 26.4px/875px */ 
   } 
   p.int {
     font-size: 1.5em;   /* 24px @ 16px/em */
-    padding-left: 5em;  /* 120px @ 24px/em */
-    padding-right: 5em;
+    padding-left: 13.714%;  /* 13.714% = 120px/875px */
+    padding-right: 13.714%;
     line-height: 1.5em;   /* 36px @ 24px/em */
   }
   
