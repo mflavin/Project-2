@@ -12,25 +12,24 @@ html {
   background-color: #9999ff;
 }
 article {
-  padding-top: 3.6%;
+  padding-top: 3.6%;  /* 3.6% = 11.52px/320px */
   padding-bottom: 0.1em;
   background-color: grey;
 }
 section {
-  margin-left: 3.6%;
-  margin-right: 3.6%;
+  margin: 0 3.6%;  /* 3.6% = 11.52px/320px */
   margin-bottom: 3.6%;
-  padding-top: 3.6%;
+  padding-top: 3.6%;  
   background-color: #b3b3ff;
 }
 h1.head, ul.link {
   text-align: center;
-  padding-bottom: 0.2em;  /* 4.8px @ 24px/em */
+  padding-bottom: 1%;  /* 1% = 4.8px/480px */
   font-size: 1.5em;   /* 24px @ 16px/em */
-  line-height: 1.5em;   /* 36px @ 24px/em */
+  line-height: 2em;   /* 48px @ 24px/em */
 }
 h1.head {
-  margin: 0.5em 4em;
+  margin: 3.75% 20%;  /* 3.75% = 12px/320px && 20% = 96px/480px  */
   background-color: black;
   color: white;
 }
@@ -45,9 +44,7 @@ ul.link, a:link {
   display: flex;
   flex-direction: column;
   white-space: nowrap; 
-  padding-left: 25%;
-  padding-right: 25%;
-  padding-bottom: 0.2em;
+  padding: 0 25%;
   background-color: #ccccff;
 }
 ul.link li {
@@ -56,7 +53,7 @@ ul.link li {
   background-color: #4d4dff;
 }
 ul.link:last-child {
-  padding-bottom: 0.5em;
+  padding-bottom: 3.75%;  /* 3.75% = 12px/320px */
   background-color: #9999ff;
 }
 footer {
@@ -67,47 +64,45 @@ footer {
 /* Resume Page */
 h2.info {
   font-size: 1.563em;   /* 25px @ 16px/em */
-  padding-bottom: 0.25em;   /* 6.25px @ 25px/em */
+  padding-bottom: 1.95%;   /* 1.95% = 6.25px/320px */
   text-align: center;
   background-color:grey;
-  margin-left: 2em;
-  margin-right: 2em;
+  margin:0 17%;
 }
 li.sub {
   font-size: 1.25em;   /* 20px @ 16px/em */
   text-align: center;
-  padding-left: 1em;
+  padding-left: 6.25%;  /* 6.25% = 20px/320px */
 }
 ul.list {
   font-size: 0.8em;   /* 16px @ 20px/em */
   list-style-type: square;
-  padding-bottom: 1em;    /* 20px @ 20/em */
+  padding-bottom: 5%;   /* 5% = 16px/320px */
   color: #333333;
 }
 
 /* About Me Page */
 h2.topic, h2.me {
   font-size: 1.4em;   /* 22.4px @ 16px/em */
-  padding-bottom: 0.5em;    /* 11.2px @ 22.4px/em */
-  padding-left: 0.6em;    /* 13.44px @ 22.4px/em */
+  padding-bottom: 3.5%;    /* 3.5% = 11.2px/320px */
+  padding-left: 4.2%;    /* 4.2% = 13.44px/320px */
   text-align: center;
   text-decoration: underline;
   font-weight: bold;
 }
 h3 {
   font-size: 1.25em;    /* 20px @ 16px/em */
-  padding-left: 1em;    /* 20px @ 20px/em */
-  padding-bottom: 0.5em;    /* 10px @ 20px/em */
+  padding-left: 6.25%;    /* 6.25% = 20px/320px */
+  padding-bottom: 3.125%;    /* 3.125% = 10px/320px */
   text-align: center;
   font-weight: bold;
   color: #262626;
 } 
 p.int {
-  font-size: 1em;   /* 14.4px @ 16px/em */
-  padding-left: 2em;    /* 28.8px @ 14.4px/em */
-  padding-right: 2em;
-  padding-bottom: 1em;
-  line-height: 1.3em;   /* 18.72 @ 14.4px/em */
+  font-size: 1em;   /* 16px @ 16px/em */
+  padding: 0 10%;    /* 10% = 32px/320px*/
+  padding-bottom: 5%;   /* 5% = 16px/320px */
+  line-height: 1.3em;   /* 20.8px @ 16px/em */
 }
 
 /* Media Page */
@@ -115,13 +110,13 @@ figure.image, figure.image2, figure.video {
   width: 50%;
   margin-left: auto;
   margin-right: auto; 
-  padding: 1em 4em;
+  padding: 5% 20%;  /* 5% = 16px/320px && 20% = 64px/320px */
   background-color: #8080ff;
 }
 figcaption {
   text-align: center;
-  padding-bottom: 1em;
-  margin-top: 0.25em;
+  padding-bottom: 11%;  
+  margin-top: 2.5%;
   background-color: #9999ff;
 }
 
