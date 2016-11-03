@@ -59,6 +59,7 @@ ul.link:last-child {
 footer {
   font-size: 1em;   /* 16px @ 16px/em */
   text-align: center;
+  line-height: 1.5em;
 }
 
 /* Resume Page */
@@ -68,17 +69,20 @@ h2.info {
   text-align: center;
   background-color:grey;
   margin:0 17%;
+  line-height: 1.3em;
 }
 li.sub {
   font-size: 1.25em;   /* 20px @ 16px/em */
   text-align: center;
   padding-left: 6.25%;  /* 6.25% = 20px/320px */
+  line-height: 0.9em;
 }
 ul.list {
   font-size: 0.8em;   /* 16px @ 20px/em */
   list-style-type: square;
   padding-bottom: 5%;   /* 5% = 16px/320px */
   color: #333333;
+  line-height: 1.2em;
 }
 
 /* About Me Page */
@@ -89,6 +93,7 @@ h2.topic, h2.me {
   text-align: center;
   text-decoration: underline;
   font-weight: bold;
+  line-height: 1.2em;
 }
 h3 {
   font-size: 1.25em;    /* 20px @ 16px/em */
