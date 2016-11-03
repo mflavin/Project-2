@@ -76,6 +76,7 @@ li.sub {
   text-align: center;
   padding-left: 6.25%;  /* 6.25% = 20px/320px */
   line-height: 0.9em;
+  padding-top: 0.25em;
 }
 ul.list {
   font-size: 0.8em;   /* 16px @ 20px/em */
@@ -129,11 +130,11 @@ figcaption {
   
   /* General */
   article {
-    padding-top: 4.5%;
+    padding-top: 4.5%;  /* 4.5% = 24.75px/550px */
     padding-bottom: 0.1em;
   }
   section {
-    margin-left: 4.5%;
+    margin-left: 4.5%;  /* 4.5% = 24.75px/550px */
     margin-right: 4.5%;
     margin-bottom: 4.5%;
     padding-top: 4.5%;
@@ -142,30 +143,36 @@ figcaption {
     font-size: 1.8em;   /* 28.8px @ 16px/em */
   }
   h1.head {
-    margin-left: 5.5em;
-    margin-right: 5.5em;
+    margin-left: 29%;
+    margin-right: 29%;
   }
   footer {
     font-size: 1.2em;   /* 19.2px @ 16px/em */
+    line-height: 1.5em; /* 24px @ 16px */
   }
 
   /* Resume Page */
   h2.info {
     font-size: 1.953em;   /* 31.25px @ 16px/em */
-    margin-left: 5em;
-    margin-right: 5em;
+    margin-left: 31%;
+    margin-right: 31%;
+    line-height: 1.5em;  /* 46.875px @ 31.25px/em */
   }
   li.sub {
     font-size: 1.563em;   /* 25px @ 16px/em */
+    padding-top: 0.5em;
+    line-height: 1.25em;  /* 31.25em @ 25px */
   }
   ul.list {
     font-size: 0.8em;   /* 20px @ 25px/em */
+    line-height: 1.4em;   /* 28px @ 20/em */
   }
 
   /* About Me Page */
   h2.topic, h2.me {
     font-size: 1.6em;   /* 25.6px @ 16px/em */
     padding-bottom: 0.75em;   /* 19.2px @ 25.6px/em */
+    line-height: 1.4em;   /* 35.84px @ 25.6px/em */
   }
   h3 {
     font-size: 1.45em;    /* 23.2px @ 16px/em */
@@ -207,6 +214,7 @@ figcaption {
   }
   footer {
     font-size: 1.5em;   /* 24px @ 16px/em */
+    line-height: 2em;
   }
   
   /* Resume Page */
@@ -214,18 +222,23 @@ figcaption {
     font-size: 2.441em;   /* 39.06px @ 16px/em */
     margin-left: 7em;
     margin-right: 7em;
+    line-height: 1.7em;
   }
   li.sub {
     font-size: 1.953em;   /* 31.25px @ 16px/em */
+    padding-top: 0.75em;
+    line-height: 1.4em;
   }
   ul.list {
     font-size: 0.8em;   /* 25px @ 31.25px/em */
+    line-height: 1.6em;
   }
   
   /* About Me Page */
   h2.topic, h2.me {
     font-size: 1.8em;   /* 28.8px @ 16px/em */
     padding-bottom: 1em;
+    line-height: 1.6em;
   }
   h3 {
     font-size: 1.65em;    /* 26.4px @ 16px/em */
